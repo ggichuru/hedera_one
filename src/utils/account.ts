@@ -40,4 +40,6 @@ export const account = async () => {
   console.log(
     `\nThe new Account balance ${acc_balance.hbars.toTinybars()} tinybars`
   );
+
+  return { new_acc_id, client };
 };
